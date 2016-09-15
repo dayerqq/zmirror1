@@ -20,6 +20,6 @@ if __name__ == '__main__':
         port=my_host_port,
         threaded=True,
 
-        debug=True,  # 如果你想直接用本程序给外网访问, 请把debug设置成 False (大小写敏感), 或者注释掉本行
+        #debug=True,  # 如果你想直接用本程序给外网访问, 请把debug设置成 False (大小写敏感), 或者注释掉本行
         # host='0.0.0.0',  # 默认只允许本机访问, 如果你希望让外网访问, 请去掉本行的注释
     )
